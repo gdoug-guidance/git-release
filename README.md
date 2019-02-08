@@ -39,4 +39,5 @@ Under the hood `git release` uses the git config system to store lists of branch
 - `git release dump` deletes release branch and rollsback the candidate version.
 - `git release checkout` displays a list of release branches, allows for switching from release to release
 - `git release devbranches` to list out branches that are contained in the development branch, that are not yet on master
+- `git release setstagebranch [branch name]` to set the name of the staging branch
 - `git release checkoutfeature` to find and create local branch from remote feature branch
